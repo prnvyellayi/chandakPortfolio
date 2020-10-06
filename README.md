@@ -1,6 +1,6 @@
 # Personal Website
 
-This is Ekansh Gupta's personal website: [ekanshgupta.github.io](ekanshgupta.github.io)
+This is Ekansh Gupta's personal website
 
 ## Dependencies
 
