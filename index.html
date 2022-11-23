@@ -57,7 +57,7 @@
                     <a href="mailto:ekanshgupta92@email.com">ekanshgupta92@gmail.com</a>
                 </div>
                 <p class="lead mb-5">
-                    I am a junior student in Mechanical Engineering Department at <a
+                    I am a final year student in Mechanical Engineering Department at <a
                         href="https://www.bits-pilani.ac.in/">BITS Pilani, Pilani Campus</a>. I am highly interested in
                     Robotics and I am also exploring areas of Machine learning and computer vision, which might be
                     helpful in robotics.
@@ -83,13 +83,17 @@
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Differentiable LOAM </h3>
-                        <p>Undergoing Undergraduate Thesis at IIIT Hyderabad under Professor Madhav Krishna along with
-                            Dr Krishna Murthy Jatavallabhula, Dr Sandeep Chinchali, and Dr Arun
-                            Singh as advisers. Working on making LOAM differentiable and more robust by assigning
-                            weights to each point. The LOAM weights were used as base labels to train
+                        <p>Undergoing Undergraduate Thesis at IIIT Hyderabad under Professor Madhav Krishna.
+                            <!-- along with Dr Krishna Murthy Jatavallabhula, Dr Sandeep Chinchali, and Dr Arun
+                            Singh as advisers.  -->
+                            Working on making LOAM differentiable and more robust by assigning
+                            weights to each point. I majorly contributed in differentiable pointcloud sampling
+                            algorithms, integrating the differentiable ICP algorithm in the pipeline and creating
+                            datasets in carla along with neural network implementation for per point weight prediction.
+                            <!-- The LOAM weights were used as base labels to train
                             the model in addition to pose priors so that it choses important features like edges of
                             roads, trees, buildings, etc and simultaneously avoid moving taffic for
-                            icp calculations.
+                            icp calculations. -->
                         </p>
                     </div>
                     <!-- <div class="flex-shrink-0"><span class="text-primary">Mar 2021 - Present</span></div> -->
@@ -120,16 +124,18 @@
 
                             <!-- Full-width images with number and caption text -->
                             <div class="mySlides">
-                                <iframe class="img-projects" src="https://www.youtube.com/embed/YbJjPI5uK3E" title="YouTube video player"
-                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                <iframe class="img-projects" src="https://www.youtube.com/embed/YbJjPI5uK3E"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                                 <!-- <div class="text">Caption Text</div> -->
                             </div>
 
                             <div class="mySlides">
-                                <iframe class="img-projects" src="https://www.youtube.com/embed/Tw4fCzOCo0I" title="YouTube video player" 
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                 allowfullscreen></iframe>
+                                <iframe class="img-projects" src="https://www.youtube.com/embed/Tw4fCzOCo0I"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
                                 <!-- <div class="text">Caption Two</div> -->
                             </div>
                         </div>
@@ -162,8 +168,9 @@
                             Worked on the hardware implementation along with mapping and localization side of the
                             project by using AMCL and RTABmap.
                         </p>
-                        <iframe class = "img-projects" src="https://www.youtube.com/embed/-fh-_bw6jk4" title="YouTube video player"
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        <iframe class="img-projects" src="https://www.youtube.com/embed/-fh-_bw6jk4"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                         <p style="text-align:center"> <em>Video demonstration of the project and its tracking on rviz.
                                 In this, we tested the
@@ -184,8 +191,17 @@
                             Other quadruped like Boston Dynamic's Spot rely heavily on kinematics and mechanics, however
                             our work is more in the field of Reinforcement learning so that the bot can
                             learn the complex physics on its own for the various gait patterns. I am currently the head
-                            of the project and worked on the gait pattern programming and RL environment.</p>
-                        <img class="img-projects" src="dist/assets/img/quad.png" alt="">
+                            of the project and worked on the gait pattern programming and RL environment and training.
+                        </p>
+                        <iframe class="img-projects" src="https://www.youtube.com/embed/_4770cm8G_0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <!-- <div class="text">Caption Text</div> -->
+                        <p style="text-align:center"> <em>Policy trained in DDPG using Bezier curves as the base policy
+                            </em>
+
+                            <img class="img-projects" src="dist/assets/img/quad.png" alt="">
                     </div>
                     <!-- <div class="flex-shrink-0"><span class="text-primary">Mar 2021 - Present</span></div> -->
                 </div>
@@ -202,16 +218,22 @@
                     <!-- <div class="flex-shrink-0"><span class="text-primary">Aug 2021 - Present</span></div> -->
                 </div>
 
-                <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Self Balancing bot</h3>
-                            <p>Course assignment of autonomous Mobile Robotics. We worked on the webots simulator to create an LQR controller for a two wheeled self balancing bot and then implemented the A* 
-                            path planning algorithm to avoid obstacles and reach the goal location. This bot was a prototype of the proposed waiter bot at a restaurant to carry the eatables from kitchen to the 
-                            customers without spilling the food. </p>
-                        </div>
-                        <img class="img-projects" src="dist/assets/img/selfbalance.png" alt="">
-                        <div class="flex-shrink-0"><span class="text-primary"></span></div>
-                    </div> -->
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Flipkart Grid 2.0</h3>
+                        <p>Autonomous hexacopter for Flipkart Grid challenge. The Realsense camera calculates the
+                            position of centre coordinate
+                            (using OpenCV) of the frame which is then transformed and processed with PID to move to the
+                            goal. The frames are placed
+                            randomly at a regular interval according to the problem statement. The solution was among
+                            the top 5 solutions from all teams in India. </p>
+                    </div>
+                    <iframe class="img-projects" src="https://www.youtube.com/embed/WWy6ZgH7QA4"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="flex-shrink-0"><span class="text-primary"></span></div>
+                </div>
 
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
