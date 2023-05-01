@@ -12434,13 +12434,13 @@ section.resume-section .resume-section-content {
 	margin: 0 calc(50% - 128px);*/
 }
 
-/* @media (max-width: 960px) {
+@media (max-width: 767px) {
 	.img-projects {
 		max-width: 18em;
 		height: auto;
 		margin: 0 calc(50% - 144px);
 	}
-} */
+}
 
 /* Slideshow container */
 .slideshow-container {
